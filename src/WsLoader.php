@@ -4,7 +4,7 @@ use Spaaro\Spaaro;
 
 if (!function_exists('spaaro')) {
 
-    function field()
+    function spaaro()
     {
         $Spaaro = new Spaaro();
         return $Spaaro;
