@@ -1,4 +1,4 @@
-# Laravel package for form fields
+# this package helps to integrate spaaro services in php applications
 
 ## Installation
 
