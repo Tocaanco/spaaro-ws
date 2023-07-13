@@ -1,4 +1,4 @@
-# Laravel package for form fields
+# this package helps to integrate spaaro services in php applications
 
 ## Installation
 
@@ -25,6 +25,7 @@ Add your access key to your `.env` file with key `SPAARO_ACCESS_KEY`
 
 You can send message like this
 ```php
+
     /**
      * @param string $message 
      * @param string $mobile 
