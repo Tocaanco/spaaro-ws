@@ -1,0 +1,29 @@
+{
+    "name": "spaaro/spaaro-ws",
+    "description": "this package helps to integrate spaaro services in php applications",
+    "authors": [
+        {
+            "name": "MostafaSewidan",
+            "email": "sewidanmostafa@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spaaro\\SpaaroWsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Spaaro\\": "src/"
+        },
+        "files": [
+            "src/WsLoader.php"
+        ]
+    }
+}
